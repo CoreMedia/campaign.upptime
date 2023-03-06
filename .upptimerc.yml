@@ -2,23 +2,41 @@ owner: CoreMedia
 repo: campaign.upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Campaign Service Production
+  - name: Campaign Service Production CDN
     url: https://api.campaigns.coremedia.io
-  - name: Campaign Service Development
+    headers:
+      - "Authorization: Bearer $HEADER_TOKEN"
+      - "Content-Type: application/json"
+  - name: Campaign Service Production internally
+    url: https://prod.campaign-delivery-prod.coremedia.services/graphql
+    headers:
+      - "Authorization: Bearer $HEADER_TOKEN"
+      - "Content-Type: application/json"
+  - name: Campaign Service Development CDN
     url: https://campaigns-dev.stellate.sh/
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+    headers:
+      - "Authorization: Bearer $HEADER_TOKEN"
+      - "Content-Type: application/json"
+  - name: Campaign Service Development internally
+    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
+    method: POST
+    headers:
+      - "Authorization: Bearer $HEADER_TOKEN"
+      - "Content-Type: application/json"
+  - name: Campaign Service Development internally with content query
+    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
+    method: POST
+    headers:
+      - "Authorization: Bearer $HEADER_TOKEN"
+      - "Content-Type: application/json"
+    body: '{"query":"query ExampleQuery($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"ExampleQuery"}'
 
 status-website:
   baseUrl: /campaign.upptime
   logoUrl: https://avatars.githubusercontent.com/u/182191?s=200&v=4
   name: Campaign Upptime
   introTitle: "**Campaigns Upptime** is a uptime monitor and status page about the Campaign Service."
-  introMessage: This is a status page to show uptime information about the Campaign Service.
+  introMessage: You can see what services are available and what their average response time is. This information in also shown in dynamically generated Graphs.
   navbar:
     - title: Status
       href: /
