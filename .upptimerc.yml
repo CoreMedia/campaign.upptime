@@ -27,7 +27,7 @@ sites:
       - "Content-Type: application/json"
     body: '{"query":"query {channelTypes}"}'
   - name: Campaign Service Development internally with content query
-    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
+    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/gsraphql
     method: POST
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
