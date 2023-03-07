@@ -33,6 +33,13 @@ sites:
       - "Authorization: Bearer $HEADER_TOKEN"
       - "Content-Type: application/json"
     body: '{"query":"query ExampleQuery($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"ExampleQuery"}'
+  - name: Campaign Service Development test broken site
+    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/notgraphql
+    method: POST
+    headers:
+      - "Authorization: Bearer $HEADER_TOKEN"
+      - "Content-Type: application/json"
+    body: '{"query":"query ExampleQuery($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"ExampleQuery"}'
 
 status-website:
   baseUrl: /campaign.upptime
