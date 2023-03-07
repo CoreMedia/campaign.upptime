@@ -27,14 +27,14 @@ sites:
       - "Content-Type: application/json"
     body: '{"query":"query {channelTypes}"}'
   - name: Campaign Service Development internally with content query
-    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/gsraphql
+    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
     method: POST
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
       - "Content-Type: application/json"
     body: '{"query":"query ExampleQuery($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"ExampleQuery"}'
   - name: Campaign Service Development test broken site
-    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/notgraphql
+    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
     method: POST
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
