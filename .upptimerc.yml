@@ -9,9 +9,11 @@ sites:
       - "Content-Type: application/json"
   - name: Campaign Service Production internally
     url: https://prod.campaign-delivery-prod.coremedia.services/graphql
+    method: POST
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
       - "Content-Type: application/json"
+    body: '{"query":"query {channelTypes}"}'
   - name: Campaign Service Development CDN
     url: https://campaigns-dev.stellate.sh/
     headers:
@@ -23,6 +25,7 @@ sites:
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
       - "Content-Type: application/json"
+    body: '{"query":"query {channelTypes}"}'
   - name: Campaign Service Development internally with content query
     url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
     method: POST
