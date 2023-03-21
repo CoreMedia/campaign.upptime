@@ -7,32 +7,6 @@ sites:
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
       - "Content-Type: application/json"
-  - name: Campaign Service Production internally
-    url: https://prod.campaign-delivery-prod.coremedia.services/graphql
-    method: POST
-    headers:
-      - "Authorization: Bearer $HEADER_TOKEN"
-      - "Content-Type: application/json"
-    body: '{"query":"query {channelTypes}"}'
-  - name: Campaign Service Development CDN
-    url: https://campaigns-dev.stellate.sh/
-    headers:
-      - "Authorization: Bearer $HEADER_TOKEN"
-      - "Content-Type: application/json"
-  - name: Campaign Service Development internally
-    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
-    method: POST
-    headers:
-      - "Authorization: Bearer $HEADER_TOKEN"
-      - "Content-Type: application/json"
-    body: '{"query":"query {channelTypes}"}'
-  - name: Campaign Service Development internally with content query
-    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
-    method: POST
-    headers:
-      - "Authorization: Bearer $HEADER_TOKEN"
-      - "Content-Type: application/json"
-    body: '{"query":"query ExampleQuery($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"ExampleQuery"}'
 
 status-website:
   baseUrl: /campaign.upptime
