@@ -7,6 +7,7 @@ sites:
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
       - "Content-Type: application/json"
+      - "campaign-service-preview-token: 1"
 
 status-website:
   baseUrl: /campaign.upptime
