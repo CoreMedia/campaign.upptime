@@ -33,7 +33,10 @@ status-website:
       href: https://www.coremedia.com/
 
 i18n:
-  footer: ["**Sign Up for our industry-specific newsletters**"](https://www.coremedia.com/newsletter) to stay in touch with CoreMedia. [**Privacy**](https://www.coremedia.com/privacy) | [**Manage Preferences**](https://www.coremedia.com/manage-preferences) | [**Legal**](https://www.coremedia.com/legal) | [**Imprint**](https://www.coremedia.com/imprint) | [**Knowledge Center**](https://www.coremedia.com/knowledge-center/overview) Copyright © CoreMedia GmbH, CoreMedia Corporation. All Rights Reserved.
+  footer: >
+    [Sign Up for our industry-specific newsletters](https://www.coremedia.com/newsletter) to stay in touch with CoreMedia. 
+    [Privacy](https://www.coremedia.com/privacy) | [Manage Preferences](https://www.coremedia.com/manage-preferences) | [Legal](https://www.coremedia.com/legal) | [Imprint](https://www.coremedia.com/imprint) | [Knowledge Center](https://www.coremedia.com/knowledge-center/overview) 
+    Copyright © CoreMedia GmbH, CoreMedia Corporation. All Rights Reserved.
 
 workflowSchedule:
   responseTime: "*/5 * * * *"
