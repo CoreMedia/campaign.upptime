@@ -1,0 +1,30 @@
+# IntelliJ Idea:
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Logs:
+*.log
+*.out
+.npm-debug.log*
+*.pid
+
+# Git:
+*.orig
+*.rej
+
+# OS X:
+.DS_Store
+
+# Emacs
+*~
+
+# Jenkins
+.repository
+
+# (custom) dev envs
+.env
+.env.yml
+.envrc
+/tmp/

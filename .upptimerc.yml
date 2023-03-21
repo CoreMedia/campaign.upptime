@@ -2,47 +2,41 @@ owner: CoreMedia
 repo: campaign.upptime
 
 sites:
-  - name: Campaign Service Production CDN
+  - name: Delivery API (cached)
     url: https://api.campaigns.coremedia.io
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
       - "Content-Type: application/json"
-  - name: Campaign Service Production internally
-    url: https://prod.campaign-delivery-prod.coremedia.services/graphql
-    method: POST
+    body: '{"query":"query Check($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"Check"}'
+
+  - name: Delivery API (uncached)
+    url: https://api.campaigns.coremedia.io
     headers:
       - "Authorization: Bearer $HEADER_TOKEN"
       - "Content-Type: application/json"
-    body: '{"query":"query {channelTypes}"}'
-  - name: Campaign Service Development CDN
-    url: https://campaigns-dev.stellate.sh/
-    headers:
-      - "Authorization: Bearer $HEADER_TOKEN"
-      - "Content-Type: application/json"
-  - name: Campaign Service Development internally
-    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
-    method: POST
-    headers:
-      - "Authorization: Bearer $HEADER_TOKEN"
-      - "Content-Type: application/json"
-    body: '{"query":"query {channelTypes}"}'
-  - name: Campaign Service Development internally with content query
-    url: https://dev.campaign-delivery-dev-01.coremedia.ninja/graphql
-    method: POST
-    headers:
-      - "Authorization: Bearer $HEADER_TOKEN"
-      - "Content-Type: application/json"
-    body: '{"query":"query ExampleQuery($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"ExampleQuery"}'
+      - "$CAMPAIGN_SERVICE_PREVIEW_TOKEN: 1"
+    body: '{"query":"query Check($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"Check"}'
 
 status-website:
   baseUrl: /campaign.upptime
+  #cname: status.campaigns.coremedia.io
   logoUrl: https://avatars.githubusercontent.com/u/182191?s=200&v=4
-  name: Campaign Upptime
-  introTitle: "**Campaigns Upptime** is a uptime monitor and status page about the Campaign Service."
-  introMessage: You can see what services are available and what their average response time is. This information in also shown in dynamically generated Graphs.
+  theme: light
+  name: CoreMedia Campaigns
+  introTitle: "Status of CoreMedia Campaigns"
   navbar:
     - title: Status
       href: /campaign.upptime/
+    - title: Documentation
+      href: https://documentation.coremedia.com/services/campaign-service/
+    - title: CoreMedia.com
+      href: https://www.coremedia.com/
+
+i18n:
+  footer: >
+    [Sign Up for our industry-specific newsletters](https://www.coremedia.com/newsletter) to stay in touch with CoreMedia. 
+    [Privacy](https://www.coremedia.com/privacy) | [Manage Preferences](https://www.coremedia.com/manage-preferences) | [Legal](https://www.coremedia.com/legal) | [Imprint](https://www.coremedia.com/imprint) | [Knowledge Center](https://www.coremedia.com/knowledge-center/overview) 
+    Copyright © CoreMedia GmbH, CoreMedia Corporation. All Rights Reserved.
 
 workflowSchedule:
   responseTime: "*/5 * * * *"
