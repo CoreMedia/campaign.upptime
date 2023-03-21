@@ -19,6 +19,7 @@ sites:
 
 status-website:
   baseUrl: /campaign.upptime
+  #cname: status.campaigns.coremedia.io
   logoUrl: https://avatars.githubusercontent.com/u/182191?s=200&v=4
   theme: light
   name: CoreMedia Campaigns
@@ -30,7 +31,9 @@ status-website:
       href: https://documentation.coremedia.com/services/campaign-service/
     - title: CoreMedia.com
       href: https://www.coremedia.com/
-  i18n:
-    footer: ["**Sign Up for our industry-specific newsletters**"](https://www.coremedia.com/newsletter) to stay in touch with CoreMedia. [**Privacy**](https://www.coremedia.com/privacy) | [**Manage Preferences**](https://www.coremedia.com/manage-preferences) | [**Legal**](https://www.coremedia.com/legal) | [**Imprint**](https://www.coremedia.com/imprint) | [**Knowledge Center**](https://www.coremedia.com/knowledge-center/overview) Copyright © CoreMedia GmbH, CoreMedia Corporation. All Rights Reserved.
+
+i18n:
+  footer: ["**Sign Up for our industry-specific newsletters**"](https://www.coremedia.com/newsletter) to stay in touch with CoreMedia. [**Privacy**](https://www.coremedia.com/privacy) | [**Manage Preferences**](https://www.coremedia.com/manage-preferences) | [**Legal**](https://www.coremedia.com/legal) | [**Imprint**](https://www.coremedia.com/imprint) | [**Knowledge Center**](https://www.coremedia.com/knowledge-center/overview) Copyright © CoreMedia GmbH, CoreMedia Corporation. All Rights Reserved.
+
 workflowSchedule:
   responseTime: "*/5 * * * *"
