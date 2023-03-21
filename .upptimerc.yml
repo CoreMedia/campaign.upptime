@@ -42,9 +42,7 @@ status-website:
   introMessage: You can see what services are available and what their average response time is. This information in also shown in dynamically generated Graphs.
   navbar:
     - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: /campaign.upptime/
 
 workflowSchedule:
   responseTime: "*/5 * * * *"
