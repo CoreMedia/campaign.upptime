@@ -1,7 +1,7 @@
 url: https://coremedia-jwt.api.coremedia.services/v1/config
-status: down
-code: 404
-responseTime: 350
-lastUpdated: 2023-03-22T12:43:16.568Z
+status: up
+code: 200
+responseTime: 384
+lastUpdated: 2023-03-22T12:46:29.406Z
 startTime: Wed Mar 22 2023 12:43:16 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
