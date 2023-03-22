@@ -31,37 +31,48 @@ html, body {
   padding: 0;
 }
 
-nav {
-  color: #ffffff;
-  background-color: #363936;
+#sapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-nav > .container {
+#sapper > nav {
+  color: #ffffff;
+  background-color: #363936;
+  flex-shrink: 0;
+}
+
+#sapper >  nav > .container {
   max-width: 1200px
 }
 
-main {
+#sapper > main {
   flex-grow: 1;
 }
 
-footer {
+#sapper > footer {
   color: #ffffff;
   background-color: #363936;
   padding: 2rem 0;
   opacity: 1 !important;
 }
 
-footer > p {
+#sapper > footer > p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
   font-size: 0.8rem;
+  line-height: 2;
 }
 
-#sapper {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+#sapper > footer > p a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#sapper > footer > p a:hover {
+  text-decoration: underline;
 }
 
 .container {
