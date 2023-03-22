@@ -39,4 +39,4 @@ i18n:
     Copyright © CoreMedia GmbH, CoreMedia Corporation. All Rights Reserved.
 
 workflowSchedule:
-  responseTime: "*/5 * * * *"
+  responseTime: "*/30 * * * *"
