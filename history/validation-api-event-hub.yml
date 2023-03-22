@@ -1,7 +1,7 @@
 url: https://prod-rest.campaign-management-prod.coremedia.services/eventHubHook
 status: up
-code: 404
-responseTime: 369
-lastUpdated: 2023-03-22T14:13:59.944Z
+code: 200
+responseTime: 3843
+lastUpdated: 2023-03-22T15:29:11.939Z
 startTime: Wed Mar 22 2023 12:43:20 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
