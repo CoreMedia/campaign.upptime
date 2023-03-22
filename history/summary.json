@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.campaigns.coremedia.io.ico",
     "slug": "delivery-api",
     "status": "up",
-    "uptime": "32.09%",
-    "uptimeDay": "32.09%",
-    "uptimeWeek": "32.09%",
-    "uptimeMonth": "32.09%",
-    "uptimeYear": "32.09%",
+    "uptime": "99.62%",
+    "uptimeDay": "99.62%",
+    "uptimeWeek": "99.62%",
+    "uptimeMonth": "99.62%",
+    "uptimeYear": "99.62%",
     "time": 2588,
     "timeDay": 2588,
     "timeWeek": 2588,
     "timeMonth": 2588,
     "timeYear": 2588,
     "dailyMinutesDown": {
-      "2023-03-22": 23
+      "2023-03-22": 0
     }
   },
   {
@@ -25,19 +25,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/prod.campaign-management-prod.coremedia.services.ico",
     "slug": "management-api",
     "status": "up",
-    "uptime": "90.55%",
-    "uptimeDay": "90.55%",
-    "uptimeWeek": "90.55%",
-    "uptimeMonth": "90.55%",
-    "uptimeYear": "90.55%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 508,
     "timeDay": 508,
     "timeWeek": 508,
     "timeMonth": 508,
     "timeYear": 508,
-    "dailyMinutesDown": {
-      "2023-03-22": 3
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Authorization API",
@@ -45,19 +43,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/coremedia-jwt.api.coremedia.services.ico",
     "slug": "authorization-api",
     "status": "up",
-    "uptime": "90.52%",
-    "uptimeDay": "90.52%",
-    "uptimeWeek": "90.52%",
-    "uptimeMonth": "90.52%",
-    "uptimeYear": "90.52%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 541,
     "timeDay": 541,
     "timeWeek": 541,
     "timeMonth": 541,
     "timeYear": 541,
-    "dailyMinutesDown": {
-      "2023-03-22": 3
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Validation API (Event Hub)",
@@ -65,18 +61,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/prod-rest.campaign-management-prod.coremedia.services.ico",
     "slug": "validation-api-event-hub",
     "status": "up",
-    "uptime": "22.36%",
-    "uptimeDay": "22.36%",
-    "uptimeWeek": "22.36%",
-    "uptimeMonth": "22.36%",
-    "uptimeYear": "22.36%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 846,
     "timeDay": 846,
     "timeWeek": 846,
     "timeMonth": 846,
     "timeYear": 846,
-    "dailyMinutesDown": {
-      "2023-03-22": 26
-    }
+    "dailyMinutesDown": {}
   }
 ]
