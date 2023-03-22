@@ -13,18 +13,22 @@ sites:
   - name: Management API
     url: https://prod.campaign-management-prod.coremedia.services/graphql
     method: POST
+    expectedStatusCodes:
+      - 400
     headers:
       - "Content-Type: application/json"
 
   - name: Authorization API
     url: https://coremedia-jwt.api.coremedia.services/v1/config
-    method: POST
+    method: GET
     headers:
       - "Content-Type: application/json"
 
   - name: Validation API (Event Hub)
     url: https://prod-rest.campaign-management-prod.coremedia.services/eventHubHook
     method: POST
+    expectedStatusCodes:
+      - 404
     headers:
       - "Authorization: Bearer $HEADER_TOKEN_VALIDATION"
       - "Content-Type: application/json"
