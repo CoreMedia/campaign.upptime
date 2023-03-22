@@ -18,15 +18,15 @@ sites:
     body: '{"query":"query Check($site: String!, $channelType: String!) {campaignContent(site: $site, channelType: $channelType) {slots {assignment {items {id}}}}}","variables":{"site":"abc","channelType":"category-page"},"operationName":"Check"}'
 
 status-website:
-  baseUrl: /campaign.upptime
-  #cname: status.campaigns.coremedia.io
+  baseUrl: /
+  cname: status.campaigns.coremedia.io
   logoUrl: https://avatars.githubusercontent.com/u/182191?s=200&v=4
   theme: light
   name: CoreMedia Campaigns
   introTitle: "Status of CoreMedia Campaigns"
   navbar:
     - title: Status
-      href: /campaign.upptime/
+      href: /
     - title: Documentation
       href: https://documentation.coremedia.com/services/campaign-service/
     - title: CoreMedia.com
@@ -34,8 +34,8 @@ status-website:
 
 i18n:
   footer: >
-    [Sign Up for our industry-specific newsletters](https://www.coremedia.com/newsletter) to stay in touch with CoreMedia. 
-    [Privacy](https://www.coremedia.com/privacy) | [Manage Preferences](https://www.coremedia.com/manage-preferences) | [Legal](https://www.coremedia.com/legal) | [Imprint](https://www.coremedia.com/imprint) | [Knowledge Center](https://www.coremedia.com/knowledge-center/overview) 
+    [Sign Up for our industry-specific newsletters](https://www.coremedia.com/newsletter) to stay in touch with CoreMedia.\n
+    [Privacy](https://www.coremedia.com/privacy) | [Manage Preferences](https://www.coremedia.com/manage-preferences) | [Legal](https://www.coremedia.com/legal) | [Imprint](https://www.coremedia.com/imprint) | [Knowledge Center](https://www.coremedia.com/knowledge-center/overview)\n 
     Copyright © CoreMedia GmbH, CoreMedia Corporation. All Rights Reserved.
 
 workflowSchedule:
