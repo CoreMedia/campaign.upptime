@@ -52,6 +52,3 @@ i18n:
     [Sign Up for our industry-specific newsletters](https://www.coremedia.com/newsletter) to stay in touch with CoreMedia.<br>
     [Privacy](https://www.coremedia.com/privacy) | [Manage Preferences](https://www.coremedia.com/manage-preferences) | [Legal](https://www.coremedia.com/legal) | [Imprint](https://www.coremedia.com/imprint) | [Knowledge Center](https://www.coremedia.com/knowledge-center/overview)<br> 
     Copyright © CoreMedia GmbH, CoreMedia Corporation. All Rights Reserved.
-
-workflowSchedule:
-  uptime: "*/2 * * * *"
