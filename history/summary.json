@@ -4,18 +4,20 @@
     "url": "https://api.campaigns.coremedia.io",
     "icon": "https://icons.duckduckgo.com/ip3/api.campaigns.coremedia.io.ico",
     "slug": "delivery-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1174,
-    "timeDay": 158,
-    "timeWeek": 327,
-    "timeMonth": 544,
-    "timeYear": 1174,
-    "dailyMinutesDown": {}
+    "time": 1169,
+    "timeDay": 430,
+    "timeWeek": 374,
+    "timeMonth": 549,
+    "timeYear": 1169,
+    "dailyMinutesDown": {
+      "2023-06-07": 0
+    }
   },
   {
     "name": "Management API",
