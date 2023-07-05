@@ -39,7 +39,7 @@ status-website:
   favicon: https://cdn.statically.io/gh/CoreMedia/campaign.upptime/main/assets/CM_FavIcon.ico
   themeUrl: https://cdn.statically.io/gh/CoreMedia/campaign.upptime/main/assets/coremedia-campaign-status.css
   name: Campaigns Status Page
-  introTitle: "Campaigns Status Page | CoreMedia"
+  introTitle: "CoreMedia Campaigns"
   navbar:
     - title: Status
       href: /
