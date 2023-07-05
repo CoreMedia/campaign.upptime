@@ -35,10 +35,11 @@ sites:
 status-website:
   baseUrl: /
   cname: status.campaigns.coremedia.io
-  logoUrl: https://avatars.githubusercontent.com/u/182191?s=200&v=4
+  logoUrl: https://cdn.statically.io/gh/CoreMedia/campaign.upptime/main/assets/CM_logo_full_horizontal_fullwhite.svg
+  favicon: https://cdn.statically.io/gh/CoreMedia/campaign.upptime/main/assets/CM_FavIcon.ico
   themeUrl: https://cdn.statically.io/gh/CoreMedia/campaign.upptime/main/assets/coremedia-campaign-status.css
-  name: CoreMedia Campaigns
-  introTitle: "CoreMedia Campaigns"
+  name: Campaigns Status Page
+  introTitle: "Campaigns Status Page | CoreMedia"
   navbar:
     - title: Status
       href: /
