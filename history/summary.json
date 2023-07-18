@@ -44,19 +44,19 @@
     "url": "https://coremedia-jwt.api.coremedia.services/v1/config",
     "icon": "https://icons.duckduckgo.com/ip3/coremedia-jwt.api.coremedia.services.ico",
     "slug": "authorization-api",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.54%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 579,
-    "timeDay": 509,
-    "timeWeek": 456,
-    "timeMonth": 615,
-    "timeYear": 579,
+    "time": 582,
+    "timeDay": 721,
+    "timeWeek": 524,
+    "timeMonth": 626,
+    "timeYear": 582,
     "dailyMinutesDown": {
-      "2023-07-18": 0
+      "2023-07-18": 7
     }
   },
   {
