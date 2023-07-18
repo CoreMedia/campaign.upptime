@@ -44,9 +44,9 @@
     "url": "https://coremedia-jwt.api.coremedia.services/v1/config",
     "icon": "https://icons.duckduckgo.com/ip3/coremedia-jwt.api.coremedia.services.ico",
     "slug": "authorization-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -55,7 +55,9 @@
     "timeWeek": 456,
     "timeMonth": 615,
     "timeYear": 579,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-07-18": 0
+    }
   },
   {
     "name": "Validation API (Event Hub)",
