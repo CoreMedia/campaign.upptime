@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 789,
-    "timeDay": 1064,
-    "timeWeek": 855,
-    "timeMonth": 587,
-    "timeYear": 789,
+    "time": 787,
+    "timeDay": 66,
+    "timeWeek": 829,
+    "timeMonth": 540,
+    "timeYear": 787,
     "dailyMinutesDown": {
       "2023-06-07": 12
     }
@@ -24,19 +24,19 @@
     "url": "https://prod.campaign-management-prod.coremedia.services/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/prod.campaign-management-prod.coremedia.services.ico",
     "slug": "management-api",
-    "status": "down",
-    "uptime": "99.92%",
-    "uptimeDay": "74.37%",
-    "uptimeWeek": "96.34%",
-    "uptimeMonth": "99.16%",
-    "uptimeYear": "99.92%",
+    "status": "up",
+    "uptime": "99.90%",
+    "uptimeDay": "68.87%",
+    "uptimeWeek": "95.55%",
+    "uptimeMonth": "98.98%",
+    "uptimeYear": "99.90%",
     "time": 562,
-    "timeDay": 580,
-    "timeWeek": 586,
-    "timeMonth": 572,
+    "timeDay": 571,
+    "timeWeek": 573,
+    "timeMonth": 562,
     "timeYear": 562,
     "dailyMinutesDown": {
-      "2024-02-22": 370,
+      "2024-02-22": 449,
       "2023-04-27": 21
     }
   },
@@ -51,11 +51,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 556,
-    "timeDay": 359,
-    "timeWeek": 402,
-    "timeMonth": 473,
-    "timeYear": 556,
+    "time": 555,
+    "timeDay": 279,
+    "timeWeek": 401,
+    "timeMonth": 449,
+    "timeYear": 555,
     "dailyMinutesDown": {
       "2023-07-18": 7
     }
@@ -71,11 +71,11 @@
     "uptimeWeek": "99.92%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 953,
-    "timeDay": 754,
-    "timeWeek": 669,
-    "timeMonth": 751,
-    "timeYear": 953,
+    "time": 954,
+    "timeDay": 1306,
+    "timeWeek": 738,
+    "timeMonth": 735,
+    "timeYear": 954,
     "dailyMinutesDown": {
       "2024-02-21": 8
     }
