@@ -1,7 +1,7 @@
 url: https://prod.campaign-management-prod.coremedia.services/graphql
-status: up
-code: 400
-responseTime: 931
-lastUpdated: 2024-02-23T02:56:19.671Z
+status: down
+code: 403
+responseTime: 390
+lastUpdated: 2024-02-23T03:02:35.514Z
 startTime: 2023-03-22T12:43:10.000Z
 generator: Upptime <https://github.com/upptime/upptime>
