@@ -26,9 +26,9 @@
     "slug": "management-api",
     "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "68.10%",
-    "uptimeWeek": "95.44%",
-    "uptimeMonth": "98.95%",
+    "uptimeDay": "66.30%",
+    "uptimeWeek": "95.19%",
+    "uptimeMonth": "98.89%",
     "uptimeYear": "99.90%",
     "time": 561,
     "timeDay": 567,
@@ -36,7 +36,8 @@
     "timeMonth": 561,
     "timeYear": 561,
     "dailyMinutesDown": {
-      "2024-02-22": 460,
+      "2024-02-23": 12,
+      "2024-02-22": 474,
       "2023-04-27": 21
     }
   },
