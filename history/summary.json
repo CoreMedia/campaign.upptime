@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 787,
-    "timeDay": 854,
-    "timeWeek": 831,
-    "timeMonth": 563,
-    "timeYear": 787,
+    "time": 785,
+    "timeDay": 218,
+    "timeWeek": 825,
+    "timeMonth": 528,
+    "timeYear": 785,
     "dailyMinutesDown": {
       "2023-06-07": 12
     }
@@ -26,14 +26,14 @@
     "slug": "management-api",
     "status": "up",
     "uptime": "99.79%",
-    "uptimeDay": "64.33%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "90.10%",
     "uptimeMonth": "97.72%",
     "uptimeYear": "99.79%",
     "time": 570,
-    "timeDay": 699,
-    "timeWeek": 626,
-    "timeMonth": 606,
+    "timeDay": 580,
+    "timeWeek": 629,
+    "timeMonth": 604,
     "timeYear": 570,
     "dailyMinutesDown": {
       "2024-02-23": 526,
@@ -53,9 +53,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 555,
-    "timeDay": 693,
-    "timeWeek": 432,
-    "timeMonth": 455,
+    "timeDay": 339,
+    "timeWeek": 441,
+    "timeMonth": 447,
     "timeYear": 555,
     "dailyMinutesDown": {
       "2023-07-18": 7
@@ -72,11 +72,11 @@
     "uptimeWeek": "99.92%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 961,
-    "timeDay": 3352,
-    "timeWeek": 1099,
-    "timeMonth": 815,
-    "timeYear": 961,
+    "time": 960,
+    "timeDay": 680,
+    "timeWeek": 1098,
+    "timeMonth": 821,
+    "timeYear": 960,
     "dailyMinutesDown": {
       "2024-02-21": 8
     }
