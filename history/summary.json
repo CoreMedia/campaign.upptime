@@ -66,9 +66,9 @@
     "url": "https://prod-rest.campaign-management-prod.coremedia.services/eventHubHook",
     "icon": "https://icons.duckduckgo.com/ip3/prod-rest.campaign-management-prod.coremedia.services.ico",
     "slug": "validation-api-event-hub",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -78,6 +78,7 @@
     "timeMonth": 1057,
     "timeYear": 964,
     "dailyMinutesDown": {
+      "2024-05-31": 0,
       "2024-02-21": 8
     }
   }
