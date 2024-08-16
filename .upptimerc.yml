@@ -25,13 +25,13 @@ sites:
     headers:
       - "Content-Type: application/json"
 
-  - name: Validation API (Event Hub)
-    url: https://prod-rest.campaign-management-prod.coremedia.services/eventHubHook
-    method: POST
-    headers:
-      - "Authorization: Bearer $HEADER_TOKEN_VALIDATION"
-      - "Content-Type: application/json"
-    body: '{ "body": { "tenantId": "kayjrwt4", "sourceId": "live", "eventType": "CONTENT", "event": { "events": [ { "eventClass": "CONTENT", "eventType": "CONTENT_CREATED", "eventTimestamp": { "time": 1664214789291, "sequenceNumber": 19200, "subsequenceNumber": 1, "idTag": -1041910444 }, "contentId": "coremedia:///cap/content/5002", "contentUuid": "xxxxx4711xxxx", "contentType": "EditorProfile", "performerId": "coremedia:///cap/user/0", "name": "EditorProfile", "versionId": "coremedia:///cap/version/5002/1", "versionUuid": "10cd2978-25a0-46de-818e-083f6015b5fe", "folderId": "coremedia:///cap/content/227", "folderUuid": "268bb23b-aa92-40ef-a7c0-9ee2920720a3" } ] } } }'
+#  - name: Validation API (Event Hub)
+#    url: https://prod-rest.campaign-management-prod.coremedia.services/eventHubHook
+#    method: POST
+#    headers:
+#      - "Authorization: Bearer $HEADER_TOKEN_VALIDATION"
+#      - "Content-Type: application/json"
+#    body: '{ "body": { "tenantId": "kayjrwt4", "sourceId": "live", "eventType": "CONTENT", "event": { "events": [ { "eventClass": "CONTENT", "eventType": "CONTENT_CREATED", "eventTimestamp": { "time": 1664214789291, "sequenceNumber": 19200, "subsequenceNumber": 1, "idTag": -1041910444 }, "contentId": "coremedia:///cap/content/5002", "contentUuid": "xxxxx4711xxxx", "contentType": "EditorProfile", "performerId": "coremedia:///cap/user/0", "name": "EditorProfile", "versionId": "coremedia:///cap/version/5002/1", "versionUuid": "10cd2978-25a0-46de-818e-083f6015b5fe", "folderId": "coremedia:///cap/content/227", "folderUuid": "268bb23b-aa92-40ef-a7c0-9ee2920720a3" } ] } } }'
 
 status-website:
   baseUrl: /
