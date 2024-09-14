@@ -4,18 +4,19 @@
     "url": "https://api.campaigns.coremedia.io",
     "icon": "https://icons.duckduckgo.com/ip3/api.campaigns.coremedia.io.ico",
     "slug": "delivery-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 661,
+    "time": 658,
     "timeDay": 211,
     "timeWeek": 803,
     "timeMonth": 620,
     "timeYear": 652,
     "dailyMinutesDown": {
+      "2024-09-14": 0,
       "2024-04-04": 19
     }
   },
