@@ -24,18 +24,19 @@
     "url": "https://prod.campaign-management-prod.coremedia.services/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/prod.campaign-management-prod.coremedia.services.ico",
     "slug": "management-api",
-    "status": "up",
-    "uptime": "99.78%",
-    "uptimeDay": "98.83%",
+    "status": "down",
+    "uptime": "99.79%",
+    "uptimeDay": "99.20%",
     "uptimeWeek": "99.60%",
     "uptimeMonth": "95.30%",
     "uptimeYear": "99.55%",
     "time": 564,
-    "timeDay": 722,
-    "timeWeek": 628,
-    "timeMonth": 594,
+    "timeDay": 657,
+    "timeWeek": 619,
+    "timeMonth": 593,
     "timeYear": 560,
     "dailyMinutesDown": {
+      "2025-04-25": 0,
       "2025-04-24": 17,
       "2025-04-21": 9,
       "2025-04-20": 5,
@@ -76,7 +77,7 @@
       "2025-03-14": 10,
       "2025-03-12": 28,
       "2025-03-10": 38,
-      "2025-03-09": 19
+      "2025-03-09": 12
     }
   },
   {
