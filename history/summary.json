@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 648,
-    "timeDay": 746,
-    "timeWeek": 690,
-    "timeMonth": 682,
+    "timeDay": 91,
+    "timeWeek": 483,
+    "timeMonth": 679,
     "timeYear": 636,
     "dailyMinutesDown": {
       "2024-09-14": 10
@@ -26,14 +26,14 @@
     "slug": "management-api",
     "status": "up",
     "uptime": "99.79%",
-    "uptimeDay": "98.86%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.50%",
-    "uptimeMonth": "99.40%",
+    "uptimeMonth": "99.44%",
     "uptimeYear": "99.54%",
-    "time": 563,
-    "timeDay": 572,
-    "timeWeek": 558,
-    "timeMonth": 583,
+    "time": 564,
+    "timeDay": 502,
+    "timeWeek": 557,
+    "timeMonth": 580,
     "timeYear": 560,
     "dailyMinutesDown": {
       "2025-05-15": 16,
@@ -96,10 +96,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 507,
-    "timeDay": 444,
-    "timeWeek": 563,
+    "timeDay": 467,
+    "timeWeek": 520,
     "timeMonth": 642,
-    "timeYear": 519,
+    "timeYear": 520,
     "dailyMinutesDown": {}
   }
 ]
