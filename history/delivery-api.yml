@@ -1,7 +1,7 @@
 url: https://api.campaigns.coremedia.io
-status: degraded
+status: up
 code: 200
-responseTime: 10193
-lastUpdated: 2025-08-18T19:24:47.490Z
+responseTime: 36
+lastUpdated: 2025-08-18T19:31:25.686Z
 startTime: 2023-03-22T12:43:03.000Z
 generator: Upptime <https://github.com/upptime/upptime>
