@@ -1,7 +1,7 @@
 url: https://api.campaigns.coremedia.io
-status: down
-code: 404
-responseTime: 448
-lastUpdated: 2025-08-20T20:35:51.228Z
+status: up
+code: 200
+responseTime: 1583
+lastUpdated: 2025-08-20T22:37:18.975Z
 startTime: 2023-03-22T12:43:03.000Z
 generator: Upptime <https://github.com/upptime/upptime>
